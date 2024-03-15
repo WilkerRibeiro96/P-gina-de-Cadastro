@@ -1,0 +1,82 @@
+*{
+    margin: auto;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    width: 350px;
+    height: 470px;
+    border: 1px solid black;
+}
+
+h1{
+    margin-bottom: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box div{
+    padding: 7px;
+    text-align: center;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+input{
+    width: 250px;
+    height: 25px;
+    border: 1px solid black;
+}
+
+.box label{
+    margin-left: 14%;
+}
+
+.input-container{
+    position: relative;
+}
+
+.label-Icon{
+    position: absolute;
+    top: 13px;
+    right: 55px;
+}
+
+button{
+    box-sizing: content-box;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    border: 1.5px solid  white;
+    background-color: #1e00ff;
+    color: white;
+    width: 240px ;
+    height: 26px;
+    margin-top: 5px;
+}
+
+button:hover{
+    border: 1.5px solid #1e00ff;
+    background-color: white;
+    color: #1e00ff;
+}
+
+.line{
+    border-top: 2px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+
+.Socialmedia-Icons p{
+    display: inline-flex;
+    margin: 5px;
+}

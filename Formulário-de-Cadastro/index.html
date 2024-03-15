@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/ff3a42ce5d.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="Css/style.css">
+</head>
+<body>
+    
+   <div class="container">
+
+      <div class="box">
+        <i class="fi fi-rs-envelope"></i>
+          <form action="" onsubmit="senhasComferem();">
+            <div>
+                <h1>Create Account</h1>
+            </div>
+            
+            <label for="">User:</label>
+            <div class="input-container">
+                <input type="text" required>
+                <label class="label-Icon" for="name"><i class="fa-solid fa-user"></i></label>
+            </div>
+            
+            <label for="">Email:</label>
+            <div class="input-container">
+                <input type="email"  name="email" id="email" required>
+                <label class="label-Icon" for="name"><i class="fa-solid fa-envelope"></i></label>
+            </div>
+
+            <label for="">Password:</label>
+            <div class="input-container">
+                <input type="password" name="Pass" id="Pass" required onchange="conferirSenha();">
+                <label class="label-Icon" for="name"><i class="fa-solid fa-key"></i></label>
+            </div>
+
+            <label for="">Confirm the Password:</label>
+            <div class="input-container">
+                <input type="password" name="Pass2" id="Pass2" required onchange="conferirSenha();">
+                <label class="label-Icon" for="name"><i class="fa-solid fa-key"></i></label>
+            </div>
+
+            <div>
+                <button id="btnConfirm">Register</button>
+            </div>
+
+            <div class="line"></div>
+
+            <div>
+                <p>Create an account using social media</p>
+                <div class="Socialmedia-Icons">
+                    <p><i class="fa-solid fa-g"></i></p>
+                    <p><i class="fa-brands fa-facebook"></i></p>
+                    <p><i class="fa-brands fa-x-twitter"></i></p>
+                </div>
+                
+            </div>
+          </form>
+
+      </div>
+
+   </div>
+
+   <script src="Js/script.js"></script>
+   
+
+</body>
+</html>
